@@ -68,27 +68,28 @@ a {
     font-weight: 500;
     font-size: 1.5rem;
     color:rgb(135, 108, 120);
-    text-align: justify;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 
 
 
-
-
-
 /* unvisited link */
-a:link {
-    color: rgb(135, 108, 120);
-    background-color: rgb(236, 237, 229);
-    text-decoration: none;
 
-  }
   
   /* visited link */
   a:visited {
     color: rgb(135, 108, 120);
     background-color: rgb(236, 237, 229);
+    font-family: quiche-stencil, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
   }
   
   /* mouse over link */
@@ -101,8 +102,6 @@ a:link {
     color: white;
   }
   
-
-
 
 
 
@@ -134,6 +133,6 @@ a:link {
     }
 
     a {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 }

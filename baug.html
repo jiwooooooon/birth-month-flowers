@@ -7,12 +7,46 @@
 <title>August: Poppy</title>
 <link rel="stylesheet" href="css/bstyle.css"> 
 <link rel="stylesheet" href="https://use.typekit.net/jrv1qan.css">
+<style>
+	.grid-container {
+	  display: grid;
+	  grid-template-columns: auto auto auto;
+	  background-color: rgb(236, 237, 229);
+	  padding: 10px;
+	  margin: 0 auto;
+	}
+	.grid-item {
+	  background-color: rgb(236, 237, 229);
+	  border: 10px rgb(236, 237, 229);
+	  padding: 1.5rem;
+	  margin: 0 auto;
+	
+	}
+</style>
+<style>
+	.container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  background-color: rgb(236, 237, 229);
+	  padding: 10px;
+	  margin: 0 auto;
+	}
+	.item {
+	  background-color: rgb(236, 237, 229);
+	  border: 10px rgb(236, 237, 229);
+	  padding: 1.5rem;
+	  margin: 0 auto;
+	
+	}
+</style>
 
 </head>
 
-<!-- this is how you write a comment describing your code in HTML. the body section is for all content that is visible. Keep it here! Semantic structure is just as important as syntax. -->
-<!-- <body style="background-color:lightgoldenrodyellow"></body> -->
+
 <body>
+	<div class="container">
+		<a href="index.html"><h4>Birth Month Flowers</h4></a>
+	</div>
 	<h1>August</h1>
 	<img src="images/poppy.png" width="60%"> 
 	<h2>Poppy</h2>
@@ -24,16 +58,11 @@
 		</p>
 
 <!--  this is my navigation -->
-<div>
-	<a href="bsep.html">Next Month: September</a>
-	&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="bjul.html">Previous Month: July</a>
-	&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="birthmonthflowers.html">Back to the birth month list</a>
-	&nbsp;&nbsp;&nbsp;&nbsp;
+	<div class="grid-container">
+		<div class="grid-item"><a href="bjul.html">↽ July</a></div>
+		<div class="grid-item"><a href="index.html">View All the Months</a></div>
+		<div class="grid-item"><a href="bsep.html">September ⇁</a></div> 
 	</div>
-	<!-- <img src="images/poppy.jpeg" width="60%">  -->
-	<!-- hihi this is comment -->
 
 </body>
 </html>
