@@ -26,6 +26,41 @@
         }
         </style>
 
+        <!-- dropdown effect -->
+        <style>
+          body {text-align: center;
+          }
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(249, 243, 247 0.1);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            color: rgb(146, 125, 132);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          
+          .dropdown-content a:hover {
+            background-color: rgba(255, 234, 246, 0.2);
+          }
+          
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+        </style>
+
+
 
 
 
@@ -33,8 +68,14 @@
 
 <!-- this is how you write a comment describing your code in HTML. the body section is for all content that is visible. Keep it here! Semantic structure is just as important as syntax. -->
 <!-- <body style="background-color:mistyrose"> -->
+  <h3>❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀</h3>
 
-<h1>Birth Month Flowers</h1>
+  <h1 class="dropdown">Birth Month Flowers
+    <div class="dropdown-content">
+      <a href="whatarebmf.html">What are Birth Month Flowers?</a>
+      <!-- Add more dropdown items as needed -->
+    </div>
+  </h1>
 
   <div class="grid-container">
     <div class="grid-item"><img src="images/carnation2tn.png"><br><a href="bjan.html">January</a></div>
@@ -50,14 +91,11 @@
     <div class="grid-item"><img src="images/peonytn.png"><a href="bnov.html">Novemebr</a></div> 
     <div class="grid-item"><img src="images/hollytn.png"><a href="bdec.html">December</a></div> 
   </div>
+<br>
+<br>
 
-
-
-
-
-
-
-<!-- <img src="images/wkdal.JPG" width="40%"> -->
+  <h3>❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀</h3>
+  
 
 </body>
 </html>

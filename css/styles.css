@@ -22,9 +22,22 @@ h1 {
 }
 
 h2 {
-    font-family: serif;
+    font-family: quiche-stencil, sans-serif;
     font-size: 2rem;
     color:black;
+}
+
+h3 {
+    font-family: serif;
+    font-size: 300%;
+    color: rgb(249, 243, 247);
+}
+
+h4 {
+    font-family: quiche-stencil, sans-serif;
+    font-weight: 200;
+    font-size: 200%;
+    color:rgb 146, 125, 132;
 }
 
 a {
@@ -87,9 +100,11 @@ a:link {
     a{
         font-size: 0.75rem;
     }
-
+    h3{
+        font-size: 0.5rem;
+    }
     img {
-        max-width: 4rem;
+        max-width: 5rem;
         height: auto;
     }
     
