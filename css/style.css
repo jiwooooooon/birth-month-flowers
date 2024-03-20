@@ -1,0 +1,24 @@
+body {
+    background-color: aliceblue;
+}
+img {
+    max-width: 100%;
+    height: auto
+}
+
+h1 {
+    background-color:gainsboro;
+    font-family: cursive;
+    font-size: 7rem;
+    color:rgb(255, 135, 209);
+}
+
+h2 {
+    font-family: serif;
+    font-size: 2rem;
+    color:black;
+}
+
+
+
+

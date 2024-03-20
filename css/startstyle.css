@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(241, 246, 250);
+}
+img {
+    max-width: 100%;
+    height: auto
+}
+
+a {
+    font-family: quiche-stencil, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 2rem;
+    color:black;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    transform: translate(-50%, -20%);
+  }
+
+/* unvisited link */
+a:link {
+    color: rgb(255, 89, 164);
+    /* background-color: rgb(236, 237, 229); */
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(255, 89, 164);
+    /* background-color: rgb(236, 237, 229); */
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(109, 158, 255);
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
+
+/* for 0 to 600px/mobile, use this */
+@media (max-width: 600px) {
+    h1{
+        font-size: 2rem;
+        
+    }
+    a{
+        font-size: 0.75rem;
+    }
+    
+}
+
+/* for 601px and up/laptops, desktops, use this */
+@media (min-width: 601px){
+    h1{
+        font-size: 2rem;
+    }
+    a{
+        font-size: 2rem;
+    }
+}
