@@ -135,4 +135,9 @@ a {
     a {
         font-size: 0.8rem;
     }
+
+    img {
+        max-width: 80%;
+        height: auto
+    }
 }
