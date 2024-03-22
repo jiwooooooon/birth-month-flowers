@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(249, 247, 243);
+}
+img {
+    max-width: 100%;
+    height: auto
+}
+
+h1 {
+    font-family: quiche-stencil, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    color:rgb(57, 67, 58);
+    text-align: center;
+}
+
+h2 {
+    font-family: quiche-stencil, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4rem;
+    /* background-color:gainsboro; */
+    color:rgb(106, 143, 108);
+    text-align: center;
+}
+
+h3 {
+    font-family: quiche-stencil, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color:rgb(97, 112, 99);
+    text-align: center;
+}
+
+h4 {
+    font-family: quiche-stencil, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    color:rgb(147, 158, 131);
+    text-align: center;
+    align-items: center;
+}
+
+
+h5{
+    font-family: quiche-stencil, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 2rem;
+    color:rgb(97, 112, 99);
+    text-align: center; 
+}
+
+
+h6{
+    font-family: quiche-stencil, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    color:rgb(57, 67, 58);
+    text-align: center;
+}
+h6:hover {
+    color: rgb(255, 171, 237);
+}
+
+h7{
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5rem;
+    color:rgb(97, 112, 99);
+
+}
+
+
+
+p {
+    font-family: quiche-stencil, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2.5rem;
+    color:rgb(97, 112, 99);
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* learned it from w3schools! */
+}
+   
+a {
+    font-family: quiche-stencil, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color:rgb(135, 108, 120);
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+
+
+/* unvisited link */
+
+  
+  /* visited link */
+  a:visited {
+    color: rgb(135, 108, 120);
+    background-color: rgb(236, 237, 229);
+    font-family: quiche-stencil, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(249, 243, 247);
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
+  
+
+
+
+
+
+
+
+
+/* for 0 to 600px/mobile, use this */
+@media (max-width: 600px){
+    h1 {
+        font-size: 1.7rem;
+    }
+    
+    h2 {
+        font-size: 2.2rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5{
+        font-size: 1.5rem;
+    }
+   
+    p {
+        font-size: 1.5rem;
+    }
+
+    a {
+        font-size: 0.7rem;
+    }
+    
+}
