@@ -45,6 +45,39 @@ h4 {
 }
 
 
+h5{
+    font-family: quiche-stencil, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 2rem;
+    color:rgb(97, 112, 99);
+    text-align: center; 
+}
+
+
+h6{
+    font-family: quiche-stencil, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    color:rgb(57, 67, 58);
+    text-align: center;
+}
+h6:hover {
+    color: rgb(255, 171, 237);
+}
+
+h7{
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5rem;
+    color:rgb(97, 112, 99);
+
+}
+
+
 
 p {
     font-family: quiche-stencil, sans-serif;
@@ -127,13 +160,16 @@ a {
     h4 {
         font-size: 1rem;
     }
+    h7 {
+        font-size: 0.7rem;
+    }
 
     p {
         font-size: 1.5rem;
     }
 
     a {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     
 }

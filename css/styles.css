@@ -15,7 +15,6 @@ h1 {
     font-family: quiche-stencil, sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 6rem;
     /* color:rgb(104, 71, 91); */
     color:rgb(57, 67, 58);
     text-align: center;
@@ -23,7 +22,6 @@ h1 {
 
 h2 {
     font-family: quiche-stencil, sans-serif;
-    font-size: 2rem;
     color:black;
 }
 
@@ -52,10 +50,10 @@ a {
 p {
     font-family: quiche-stencil, sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 200;
+    font-size: 1rem;
     color:rgb(135, 108, 120);
-    text-align: justify;
+    text-align: center;
 }
 
 
@@ -86,11 +84,6 @@ a:link {
 
 
 
-
-
-
-
-
 /* for 0 to 600px/mobile, use this */
 @media (max-width: 600px) {
     h1{
@@ -101,11 +94,14 @@ a:link {
         font-size: 0.75rem;
     }
     h3{
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
     img {
         max-width: 5rem;
         height: auto;
+    }
+    p{
+        font-size: 0.5rem;
     }
     
 }
@@ -114,6 +110,9 @@ a:link {
 @media (min-width: 601px){
     h1{
         font-size: 6rem;
+    }
+    h2{
+        font-size: 2rem;
     }
     a{
         font-size: 2rem;
