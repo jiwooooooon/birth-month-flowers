@@ -62,10 +62,16 @@ a:link {
 @media (max-width: 600px) {
     h1{
         font-size: 2rem;
+        text-align: center;
         
     }
     a{
         font-size: 0.75rem;
+        text-align: center;
+    }
+    img {
+      max-height: 100%;
+  
     }
     
 }
